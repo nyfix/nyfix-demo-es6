@@ -1,0 +1,33 @@
+{
+  "app": {
+    "menu": {
+      "home": "Acceuil",
+      "login": "Connexion",
+      "logout": "Deconnexion",
+      "settings": "Paramètres",
+      "private": "Page privée",
+      "account": "Mon Compte"
+    }
+  },
+  "private": {
+    "title": "Page privée"
+  },
+  "login": {
+    "title": "Page de login",
+    "with": {
+      "nyfix": "Se connecter avec NYFIX",
+      "google": "Se connecter avec Google"
+    },
+    "error": {
+      "private": "Veuillez vous authentifier pour accéder à cette page",
+      "unauthorized": "Veuillez vous authentifier pour accéder à cette resource",
+      "badLogin": "Login incorrect"
+    }
+  },
+  "settings": {
+    "account": {
+      "title": "Mon Compte",
+      "greeting": "Bonjour %(name)s! Comment allez-vous aujourd'hui?"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "app": {
+    "menu": {
+      "home": "Home",
+      "login": "Login",
+      "logout": "Logout",
+      "settings": "Settings",
+      "private": "Private Page",
+      "account": "User Profile"
+    }
+  },
+  "private": {
+    "title": "Private page"
+  },
+  "login": {
+    "title": "Login Page",
+    "with": {
+      "nyfix": "Login with NYFIX",
+      "google": "Login with Google"
+    },
+    "error": {
+      "private": "Please login to access this page",
+      "unauthorized": "Please login to access this resource",
+      "badLogin": "Incorrect login"
+    }
+  },
+  "settings": {
+    "account": {
+      "title": "My Account",
+      "greeting": "Hello %(name)s! How are you today?"
+    }
+  }
+}

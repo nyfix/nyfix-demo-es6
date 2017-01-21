@@ -1,0 +1,33 @@
+{
+  "app": {
+    "menu": {
+      "home": "ホーム",
+      "login": "ログイン",
+      "logout": "ログアウト",
+      "settings": "オプション",
+      "private": "プライベートページ",
+      "account": "アカウント"
+    }
+  },
+  "private": {
+    "title": "プライベートページ"
+  },
+  "login": {
+    "title": "ログインページ",
+    "with": {
+      "nyfix": "NYFIXアカウントによる認証",
+      "google": "Googleアカウントによる認証"
+    },
+    "error": {
+      "private": "このページに認証が必要ので、ログインしてください。",
+      "unauthorized": "アクセスに認証が必要ので、ログインしてください。",
+      "badLogin": "ログイン失敗"
+    }
+  },
+  "settings": {
+    "account": {
+      "title": "個人情報",
+      "greeting": "ようこそ、%(name)sさん！お元気ですか。"
+    }
+  }
+}
