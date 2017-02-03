@@ -1,4 +1,4 @@
-# NYFIX Demo Application
+# NYFIX DEMO JAVASCRIPT
 
 ## Intro
 
@@ -28,14 +28,6 @@ OAuth 2 authentication relies on the auth server redirecting the client after au
 This URL needs to be accessible by your app clients (browsers), but not necessarily by the backend.
 
 Set your `HOSTNAME` environment variable (or hand edit `config.shared.js`) accordingly.
-
-### NYFIX Portal Register
-
-- go to [NYFIX dev center](http://devcenter-sandbox-dev.nyfix.net)
-- create an app, put `http://HOSTNAME:8080/api/nyfix-login` as the Launch URI
-- get your client ID and secret (write them down, you can't get them again)
-- set the corresponding environment variables `NYFIX_CLIENTID` / `NYFIX_SECRET` (or hand edit `backend/config.js`)
-- go to [NYFIX portal sandbox](https://portal-sandbox-dev.nyfix.net/) and test your app
 
 ## Dev/Troubleshooting tips
 
